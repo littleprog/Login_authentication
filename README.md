@@ -23,7 +23,7 @@ The purpose of this project is to learn how to combine PHP, CSS and HTML to crea
 * CSS
 
 ## Demo
-[Demo version of site](https://www.sengchowchoy.com)
+[Demo version of site](https://www.sengchowchoy.com/LoginAuthentication)
 
 ## Features
 List of features ready and TODOs for future development
