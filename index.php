@@ -210,24 +210,34 @@ will be false
  <html lang = "en">
  <head>
    <meta charset = "utf-8" />
+   <link rel="stylesheet" href="style.css" />
    <title>Login Page</title>
  </head>
  <body>
    <main>
-     <form method = "post" action = "<?php echo $_SERVER['PHP_SELF']; ?>" onsubmit = "return document.getElementById('emailAddress').value.length !== 0 && document.getElementById('user_password').value.length !== 0;">
-       <fieldset>
-         <p>
-           <label for = "emailAddress">email address: </label>
-           <input type="email" pattern = "[A-Za-z\d]+@[A-Za-z\d\.]+" id = "emailAddress" name = "email" />
-         </p>
-         <p>
-           <label for = "user_password">password(≥6 characters letters or digits): </label>
-           <input type = "password" pattern = "[A-Za-z\d]{6,}" id = "user_password" name = "password" />
-         </p>
-       </fieldset>
-       <input type = "submit" name = "register" value = "Register" />
-       <input type = "submit" name = "login" value = "Log in" />
-     </form>
+     <p class = "greeting">
+       Hey, good to see you again!
+     </p>
+     <section class = "logo-image">
+       <img src = "book_logo.jpg" alt = "logo" class = "logo" />
+     </section>
+     <div>
+       <form method = "post" action = "<?php echo $_SERVER['PHP_SELF']; ?>" onsubmit = "return document.getElementById('emailAddress').value.length !== 0 && document.getElementById('user_password').value.length !== 0;">
+         <fieldset>
+           <p class = "text-field">
+             <input class = "text-inputs" type="email" pattern = "[A-Za-z\d]+@[A-Za-z\d\.]+" id = "emailAddress" name = "email" placeholder = "Email"/>
+           </p>
+           <p class = "text-field">
+             <input class = "text-inputs" type = "password" pattern = "[A-Za-z\d]{6,}" id = "user_password" name = "password" placeholder = "Password(≥6 characters letters or digits)"/>
+           </p>
+         </fieldset>
+         <section class = "button-field">
+           <input class = "button" type = "submit" name = "register" value = "Register" />
+           <input class = "button" type = "submit" name = "login" value = "Log in" />
+         </section>
+       </form>
+     </div>
+   <div>
      <?php
      //if user presses the register button
      if (isset($_POST['register'])) {
@@ -312,9 +322,7 @@ will be false
 
         }
      } ?>
-
-
-
-   </main>
+   </div>
+  </main>
  </body>
  </html>
