@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+ <html lang = "en">
+ <head>
+   <meta charset = "utf-8" />
+   <link rel="stylesheet" href="style.css" />
+   <title>Login Page</title>
+ </head>
+ <body>
+   <main>
+       <p class = "greeting">
+         Hey, good to see you again!
+       </p>
+       <section class = "logo-image">
+         <img src = "book_logo.jpg" alt = "logo" class = "logo" />
+       </section>
+       <div>
+         <form>
+           <fieldset>
+             <p class = "text-field">
+               <input class = "text-inputs" type="email" pattern = "[A-Za-z\d]+@[A-Za-z\d\.]+" id = "emailAddress" name = "email" placeholder = "Email"/>
+             </p>
+             <p class = "text-field">
+               <input class = "text-inputs" type = "password" pattern = "[A-Za-z\d]{6,}" id = "user_password" name = "password" placeholder = "Password(≥6 characters letters or digits)" />
+             </p>
+           </fieldset>
+           <section class = "button-field">
+             <input class = "button" type = "submit" name = "register" value = "Register" />
+             <input class = "button" type = "submit" name = "login" value = "Log in" />
+           </section>
+         </form>
+       </div>
+       <div>
+         <p class = "response"> A validation email has been sent to sengchowtech@gmail.com. Please follow the link. </p>
+       </div>
+  </main>
+ </body>
+ </html>
