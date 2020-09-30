@@ -5,7 +5,7 @@
 * [General info](#general-info)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
-* [Demo link](#Demo link)
+* [Demo](#Demo)
 * [Features](#features)
 * [Status](#status)
 * [Inspiration](#inspiration)
@@ -22,7 +22,7 @@ The purpose of this project is to learn how to combine PHP, CSS and HTML to crea
 * HTML5
 * CSS
 
-## Demo link
+## Demo
 [Demo version of site](https://www.sengchowchoy.com)
 
 ## Features
