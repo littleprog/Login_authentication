@@ -5,7 +5,7 @@
 * [General info](#general-info)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
-* [Setup](#setup)
+* [Demo link](#Demo link)
 * [Features](#features)
 * [Status](#status)
 * [Inspiration](#inspiration)
@@ -15,7 +15,7 @@
 The purpose of this project is to learn how to combine PHP, CSS and HTML to create an important feature that can be found in many websites.
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./images/screenshot.png)
 
 ## Technologies
 * PHP
